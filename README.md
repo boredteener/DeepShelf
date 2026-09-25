@@ -2,6 +2,10 @@
 
 DeepShelf is a strange-game discovery archive for obscure, cult, forgotten, and interesting games.
 
+## Live site
+
+https://boredteener.github.io/DeepShelf/
+
 ## 1.0
 
 This is the public DeepShelf 1.0 rollout build. Personal owner-only Library Health tools are not included in the public site.
