@@ -1,4 +1,4 @@
-# DeepShelf 1.0
+# DeepShelf 1.1
 
 DeepShelf is a strange-game discovery archive for obscure, cult, forgotten, and interesting games.
 
@@ -6,8 +6,12 @@ DeepShelf is a strange-game discovery archive for obscure, cult, forgotten, and 
 
 https://boredteener.github.io/DeepShelf/
 
-## 1.0
+## 1.1
 
-This is the public DeepShelf 1.0 rollout build. Personal owner-only Library Health tools are not included in the public site.
+DeepShelf 1.1 adds an optional per-game **Downloads / Play** section. Download records live in `downloads.js` so links can be maintained without editing the main catalogue.
 
-The site is deployed automatically with GitHub Pages from the `main` branch.
+Games with no download links simply do not show the section.
+
+The public repository does not include the private owner Download Manager or Library Health tools. External links are manually curated and should point only to sources the site owner is permitted to share.
+
+The site deploys automatically with GitHub Pages from the `main` branch.
