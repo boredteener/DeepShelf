@@ -1612,5 +1612,829 @@ window.DEEPSHELF_DOWNLOADS = {
       "url": "https://sto.romsfast.com/GameCube-RVZ/Lost%20Kingdoms%20(USA).zip?e=1790434681&s=KD1MoO5zzvgzSruhbrs13RCubSCWd9MXQ_nNY_zMNts",
       "note": ""
     }
+  ],
+  "cubivore-survival-of-the-fittest": [
+    {
+      "label": "Cubivore: Survival of the Fittest Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://sto.romsfast.com/GameCube-RVZ/Cubivore%20-%20Survival%20of%20the%20Fittest%20(USA).zip?e=1790471707&s=kbPRyc9BDpsbgA0CIuB-UoXHR32WtvNDOsHJ7-5-7Is",
+      "note": ""
+    }
+  ],
+  "giftpia": [
+    {
+      "label": "Giftpia Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://sto.romsfast.com/GameCube-RVZ/Giftpia%20(Japan).zip?e=1790472079&s=7XZrkuTFdjzIddKI3diRKSq8xlvPPVQtV3DGoyokCsk",
+      "note": ""
+    }
+  ],
+  "homeland": [
+    {
+      "label": "Homeland Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://sto.romsfast.com/GameCube-RVZ/Homeland%20(Japan).zip?e=1790472140&s=vSNq2NZydKejojYhOKNxiJnpBALlWrtzPn7i9RkvM8Y",
+      "note": ""
+    }
+  ],
+  "odama": [
+    {
+      "label": "Odama Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://sto.romsfast.com/GameCube-RVZ/Odama%20(USA)%20(Rev%201).zip?e=1790472170&s=TkXRCRstlEDRW0Yz7TNxwYrv6W0v-_DLMG9unre7v_A",
+      "note": ""
+    }
+  ],
+  "gotcha-force": [
+    {
+      "label": "Gotcha Force Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://sto.romsfast.com/GameCube-RVZ/Gotcha%20Force%20(USA).zip?e=1790472203&s=xEPAJV5YV-qLghqNsg9GbkzT39trtbeBm5uvEIXdb4U",
+      "note": ""
+    }
+  ],
+  "amazing-island": [
+    {
+      "label": "Amazing Island Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://sto.romsfast.com/GameCube-RVZ/Amazing%20Island%20(USA).zip?e=1790472231&s=lX-YEmH-mY9o0sz9gVyxwK7EMry5KlNunochWhItLJw",
+      "note": ""
+    }
+  ],
+  "ribbit-king": [
+    {
+      "label": "Ribbit King Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PS2-Redump/Ribbit%20King%20(USA)%20(EnEs).zip?e=1790472329&s=Vfrr4U_xse1ttfk33oIYmUaiCT4kWEKw9yyLuRt55Kc",
+      "note": ""
+    },
+    {
+      "label": "Ribbit King Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://sto.romsfast.com/GameCube-RVZ/Ribbit%20King%20(USA)%20(EnEs).zip?e=1790472280&s=M5Prco6cl0TGleIAdqkZZkkvIFDmlAP1DQRa-R0cczI",
+      "note": ""
+    }
+  ],
+  "doshin-the-giant": [
+    {
+      "label": "Doshin the Giant Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://sto.romsfast.com/GameCube-RVZ/Doshin%20the%20Giant%20(Europe)%20(EnFrDeEsIt).zip?e=1790472507&s=oH70XQshYkcKi1xIfOT4IjQh9ZcpKZTyztOF9ANgK5o",
+      "note": ""
+    }
+  ],
+  "napple-tale-arsia-in-daydream": [
+    {
+      "label": "Napple Tale: Arsia in Daydream Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/Napple%20Tale%20-%20Arsia%20in%20Daydream%20(Japan).7z?e=1790472565&s=MUx71dr1mW7aAID6sZNQ_lS6zRjEAmB0uGLRfDLEj_w",
+      "note": ""
+    }
+  ],
+  "l-o-l-lack-of-love": [
+    {
+      "label": "L.O.L.: Lack of Love Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/L.O.L.%20-%20Lack%20of%20Love%20(Japan).7z?e=1790472764&s=8rwnh-Gt9xVQm8w54-bgbeus2lnqVLh4ilzU9K8wel0",
+      "note": ""
+    }
+  ],
+  "segagaga": [
+    {
+      "label": "Segagaga Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/SGGG%20-%20Segagaga%20(Japan).7z?e=1790472961&s=_-pob6QwDNYveVoB_VIo_Tv_zSFGSGtpTRiorEfBYWY",
+      "note": ""
+    }
+  ],
+  "rent-a-hero-no-1": [
+    {
+      "label": "Rent A Hero No. 1 Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/Rent%20a%20Hero%20No.1%20(Japan).7z?e=1790474259&s=GyNEBOSDd--_uoJE8lxhtMPDhUk6I3YzAfEXSU2G-KE",
+      "note": ""
+    },
+    {
+      "label": "Rent A Hero No. 1 Download",
+      "platform": "Xbox",
+      "type": "download",
+      "url": "https://sto1.romsforever.co/0:/Xbox-XISO/Rent%20a%20Hero%20No.%201%20(Japan).7z?e=1790474347&s=mRzg4nGUH_atHTmXr-rVG_RKrNehk_LwcopUxxVscZA",
+      "note": ""
+    }
+  ],
+  "record-of-lodoss-war": [
+    {
+      "label": "Record of Lodoss War Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/Record%20of%20Lodoss%20War%20(USA).7z?e=1790474462&s=bAfWnZN_yCjpxB9rLvoc2lf7UtkGHnNMfH7rLtbSZuk",
+      "note": ""
+    }
+  ],
+  "sword-of-the-berserk-guts-rage": [
+    {
+      "label": "Sword of the Berserk: Guts’ Rage Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast-CHD/Sword%20of%20the%20Berserk%20-%20Guts%20Rage%20(USA).chd?e=1790474696&s=YciuVxXuZ5sBxtlo5EcG5-XghEoikDmYzAD5LlYYugo",
+      "note": ""
+    }
+  ],
+  "time-stalkers": [
+    {
+      "label": "Time Stalkers Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/Time%20Stalkers%20(USA).7z?e=1790474758&s=cQLKFzUQJSOoxbSrkAMeW2NbkZLxgsS71A-RWBifw3Y",
+      "note": ""
+    }
+  ],
+  "floigan-bros-episode-1": [
+    {
+      "label": "Floigan Bros. Episode 1 Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/Floigan%20Bros.%20-%20Episode%201%20(USA).7z?e=1790474796&s=TtEF2k-nqNK3gPP-KRgTPBgbkgv-NaVbL58Jboezb5Y",
+      "note": ""
+    }
+  ],
+  "toy-commander": [
+    {
+      "label": "Toy Commander Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/Toy%20Commander%20(USA)%20(EnFrDeEs).7z?e=1790474976&s=_Oew2IzDaembAw7qJLQFnDch5fZVArYkHJwRYS7Iyo0",
+      "note": ""
+    }
+  ],
+  "zombie-revenge": [
+    {
+      "label": "Zombie Revenge Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/Zombie%20Revenge%20(USA).7z?e=1790475010&s=SJp1e9juoOxNPtpY1OSSG6MpQULOOkfLboTa8R-eGNs",
+      "note": ""
+    }
+  ],
+  "silverload": [
+    {
+      "label": "Silverload Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://sto.romsfast.com/eXoDOS/Silverload%20(1995).zip?e=1790475054&s=ZKbdebk-wbM9W3xjf-sLPYeeWDmKWWBATnB_UkUbgDA",
+      "note": ""
+    },
+    {
+      "label": "Silverload Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Silverload%20(USA).zip?e=1790475160&s=xnPks0hsIYr1BSYlB_WXzUUd008t5RIvPEs4UzoCxiU",
+      "note": ""
+    }
+  ],
+  "d": [
+    {
+      "label": "D Download Disc 1",
+      "platform": "3DO",
+      "type": "download",
+      "url": "https://sto.romsfast.com/3DO-CHD/D%20(USA%20Europe)%20(Disc%201).chd?e=1790475284&s=3495apxtf_O-m-3_9x9TKUz7oCQLSZHzJswHYVZ0QEQ",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 2",
+      "platform": "3DO",
+      "type": "download",
+      "url": "https://sto.romsfast.com/3DO-CHD/D%20(USA%20Europe)%20(Disc%202).chd?e=1790475308&s=6ayeJKVl_PqBpYChdbFPz8PIZIDIhLeIE6pnTf3Q9Co",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/D%20(USA)%20(Disc%20I).7z?e=1790475396&s=JAJqxLnZbmM_7HLsYbR5JWioKwO04po8WLy46Wrpm-0",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/D%20(USA)%20(Disc%20II).7z?e=1790475424&s=jtrVOyZ3pnizAjELv436CmsoSGvNbwN98lIr9EL1VLE",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/D%20(USA)%20(Disc%201).zip?e=1790475500&s=saxuRhL-_WxNJKe-dy6CfkcmZxgQ05OdE5yjPcgQOT4",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/D%20(USA)%20(Disc%202).zip?e=1790475528&s=3x1vGwlvW5w6nEI2W3X5pEnuCF1kenZ3gpIcEbM1blA",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 3",
+      "platform": "3DO",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/D%20(USA)%20(Disc%203).zip?e=1790475580&s=8gR7VMlgkqNNczvrCFOWsd56PQC6SzGdb6IC9Y_gY-Q",
+      "note": ""
+    },
+    {
+      "label": "D Download",
+      "platform": "3DO",
+      "type": "download",
+      "url": "https://sto.romsfast.com/eXoDOS/3-D%20Body%20Adventure%20(1994).zip?e=1790475650&s=fghGfLViVYQuv0V1dxUCMoEI3PV5ukTirkgVdxPUeVQ",
+      "note": ""
+    }
+  ],
+  "enemy-zero": [
+    {
+      "label": "Enemy Zero Download Disc 0",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Enemy%20Zero%20(USA)%20(Disc%200).7z?e=1790476207&s=tAcFg9ORn72RczA9OurRzjFChXPZCMCpqomclljcUl8",
+      "note": ""
+    },
+    {
+      "label": "Enemy Zero Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Enemy%20Zero%20(USA)%20(Disc%201).7z?e=1790476228&s=1WUkp1XmKvKyUf_1vBGRJI_lDQIg9OAmanmobBImadg",
+      "note": ""
+    },
+    {
+      "label": "Enemy Zero Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Enemy%20Zero%20(USA)%20(Disc%202).7z?e=1790476253&s=3s3J0mWQXGpUp4zcWsIB7yXizRGm7OuU9RwjSynqXco",
+      "note": ""
+    },
+    {
+      "label": "Enemy Zero Download Disc 3",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Enemy%20Zero%20(USA)%20(Disc%203).7z?e=1790476275&s=ISC8NDblfonpAxuZIl07zBZabYx-U6Ykrd2TZcA3o3k",
+      "note": ""
+    },
+    {
+      "label": "Enemy Zero Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://sto2.romsforever.co/3:/Magipack/Enemy%20Zero%20(Repack).rar?e=1790476322&s=bjwG2pg6tp7jv0kxeag5CAOQqMO_-dFPobKiWVk5UAg",
+      "note": ""
+    }
+  ],
+  "deep-fear": [
+    {
+      "label": "Deep Fear Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Deep%20Fear%20(Europe)%20(Disc%201).7z?e=1790476433&s=Es2Hyr-zjgabgS7snEH1W9eeFu4pFtmcku6E87ZJFtg",
+      "note": ""
+    },
+    {
+      "label": "Deep Fear Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Deep%20Fear%20(Europe)%20(Disc%202).7z?e=1790476461&s=Tl5Z2obw4Ee39T7QeqnYd4ZXEZ2h3Zp49gvsIy3my8E",
+      "note": ""
+    }
+  ],
+  "lunacy": [
+    {
+      "label": "Lunacy Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Lunacy%20(USA)%20(Disc%201).7z?e=1790477208&s=AgIsA-162dvJCG5zl0JQELuTbC13GJ99REeSx0MT8IU",
+      "note": ""
+    },
+    {
+      "label": "Lunacy Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Lunacy%20(USA)%20(Disc%202).7z?e=1790477231&s=sBuW6TcX6ryGS_C60284YfSSHPFx8NqzTwK5ZwS57pk",
+      "note": ""
+    }
+  ],
+  "dark-savior": [
+    {
+      "label": "Dark Savior Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Dark%20Savior%20(USA).7z?e=1790477274&s=AKVBMadK5vBpZRDbUdtszdlxrwI56Dt9_TBglMLB_BI",
+      "note": ""
+    }
+  ],
+  "burning-rangers": [
+    {
+      "label": "Burning Rangers Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Burning%20Rangers%20(USA).7z?e=1790477303&s=kwIixuvRw0eJuKowpB6sPdY8FvZxjqUupix_frtSBQ4",
+      "note": ""
+    }
+  ],
+  "wachenroder": [
+    {
+      "label": "Wachenröder Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/TRANS/Sega%20-%20Saturn/Discs/Wachenroeder%20(Japan)%20(T-En%20by%20Knight0fDragon%20v0.49)%20(i).chd?e=1790477330&s=9xmd0uzjl5HmEnYJyd7j0-eMYQXjJdlIjrrzDE2_FV4",
+      "note": ""
+    }
+  ],
+  "bulk-slash": [
+    {
+      "label": "Bulk Slash Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Bulk%20Slash%20(Japan).7z?e=1790477355&s=M9fpKQvnIA8RJ1DgxJ-uhZgCCnJ2OwpQjvDnI9GhYdc",
+      "note": ""
+    }
+  ],
+  "nanatsu-kaze-no-shima-monogatari": [
+    {
+      "label": "Nanatsu Kaze no Shima Monogatari Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Nanatsu%20Kaze%20no%20Shima%20Monogatari%20(Japan)%20(Disc%201).7z?e=1790477388&s=liBhrPtgIDFPiR_JOM-NubtsrdEzAhTMJ8O2tVF2z5Y",
+      "note": ""
+    },
+    {
+      "label": "Nanatsu Kaze no Shima Monogatari Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Nanatsu%20Kaze%20no%20Shima%20Monogatari%20(Japan)%20(Disc%202)%20(Premium%20CD).7z?e=1790477408&s=esWhUwrYVQ8Ps07PKWvWs9Fme0V0Ispu7hOHX8OsIpc",
+      "note": ""
+    }
+  ],
+  "princess-crown": [
+    {
+      "label": "Princess Crown Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaSaturn/Princess%20Crown%20(Japan)%20(1M).7z?e=1790477458&s=L9--O-XnYwLSKf09TsF7LkzgbPOCrtB_tPkGU2xGmNY",
+      "note": ""
+    },
+    {
+      "label": "Princess Crown Download",
+      "platform": "PSP",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSP-Complete/Redump/Princess%20Crown%20(Japan).zip?e=1790477487&s=OG6NrIdBiHvLNTKgljNZnbgYowEc-1-aaagjNydov-E",
+      "note": ""
+    }
+  ],
+  "akuji-the-heartless": [
+    {
+      "label": "Akuji the Heartless Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Akuji%20the%20Heartless%20(USA).zip?e=1790477535&s=rxvzpcJ07P8u8WlBD-56Bs4LV4es9M98lofdWpebW2o",
+      "note": ""
+    }
+  ],
+  "nightmare-creatures": [
+    {
+      "label": "Nightmare Creatures Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Nightmare%20Creatures%20(USA).zip?e=1790477591&s=Kh0FIXSNYAasDFJnoWkSZz32-FGSnZzC5MDUzklq0ZU",
+      "note": ""
+    },
+    {
+      "label": "Nightmare Creatures Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://sto2.romsforever.co/3:/Magipack/Nightmare%20Creatures%20(Repack).rar?e=1790477613&s=Gp2FiH1yT2qSzTMrvJBercSQxDsriVOSsN34mFSxhzs",
+      "note": ""
+    }
+  ],
+  "nightmare-creatures-ii": [
+    {
+      "label": "Nightmare Creatures II Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Nightmare%20Creatures%20II%20(USA).zip?e=1790477664&s=_cLS05z80cgS1fgYlcXT5A_8S0zc45jHSnEmcksL84E",
+      "note": ""
+    },
+    {
+      "label": "Nightmare Creatures II Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://sto.romsfast.com/SegaDreamcast/Nightmare%20Creatures%20II%20(USA).7z?e=1790477692&s=Yo2FW2uQwNwWB3SBUpYXBTS9tAP8ZPmPxHOoqzmtaK4",
+      "note": ""
+    }
+  ],
+  "sentient": [
+    {
+      "label": "Sentient Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Sentient%20(USA).zip?e=1790477757&s=zkGc7sImEIQ5SCkE6Wlf-fUz5XBLHFOxw8e7P26B9ck",
+      "note": ""
+    },
+    {
+      "label": "Sentient Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://sto.romsfast.com/eXoDOS/Sentient%20(1997).zip?e=1790477792&s=wbSuVLD9RNmoy5FA2k_SLaFrajq-KVo_XBM28RiMfJw",
+      "note": ""
+    }
+  ],
+  "in-cold-blood": [
+    {
+      "label": "In Cold Blood Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/In%20Cold%20Blood%20(USA)%20(Disc%201).zip?e=1790477859&s=H4R4skc3qxyz7wuRrJlrzyV1Fz-ObymH1da485t6OVk",
+      "note": ""
+    },
+    {
+      "label": "In Cold Blood Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/In%20Cold%20Blood%20(USA)%20(Disc%202).zip?e=1790477879&s=AeWac_cLR49Mc1kUXSE9vDgoIxwq07kIKCEiVOIo0BQ",
+      "note": ""
+    },
+    {
+      "label": "In Cold Blood Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "http://sto2.romsforever.co/0:/GOG/in%20cold%20blood.zip?e=1790477896&s=hYlvdjN8c4ZlFr5JtkcW37FXDSBgM9A6ehUVHLieJNI",
+      "note": ""
+    }
+  ],
+  "vampire-hunter-d": [
+    {
+      "label": "Vampire Hunter D Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Vampire%20Hunter%20D%20(USA).zip?e=1790477942&s=wuW5n2_UGZXg1BiceWYe4dZgHomCjKWXDkuyNXWyUMA",
+      "note": ""
+    }
+  ],
+  "the-city-of-lost-children": [
+    {
+      "label": "The City of Lost Children Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/City%20of%20Lost%20Children%20The%20(USA)%20(EnEsIt).zip?e=1790477985&s=ksTBRwXSN3ppdTQQLM-ZSGocEVWZm4HqonMpNdl3Ac8",
+      "note": ""
+    },
+    {
+      "label": "The City of Lost Children Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://sto2.romsforever.co/3:/Magipack/The%20City%20of%20Lost%20Children%20(Repack).rar?e=1790478018&s=5iWYb_7rGfct-VsvuIVg5mibvnBSSBeYfFLPrLwWkWk",
+      "note": ""
+    }
+  ],
+  "o-d-t": [
+    {
+      "label": "O.D.T. Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/O.D.T.%20(USA).zip?e=1790479144&s=PBuQ-HxEEr5yqs9BK-WtBHigHHiiADLx-tsBuW4FYW4",
+      "note": ""
+    }
+  ],
+  "excalibur-2555-a-d": [
+    {
+      "label": "Excalibur 2555 A.D. Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Excalibur%202555%20A.D.%20(USA).zip?e=1790479211&s=K_xsVMt308ExxNJGtUEThuAfxYEIhX1LxHcQ3Wby4n4",
+      "note": ""
+    },
+    {
+      "label": "Excalibur 2555 A.D. Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://sto2.romsforever.co/3:/Magipack/Excalibur%202555%20AD%20(Repack)%20v3.rar?e=1790479255&s=F9OeDO1Q81KORf_qZR4aOza34M52wGxQKGRUWkHrTd4",
+      "note": ""
+    }
+  ],
+  "shadow-madness": [
+    {
+      "label": "Shadow Madness Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Shadow%20Madness%20(USA)%20(Disc%201).zip?e=1790479310&s=l7daWmcf9AneACJZNBS_2lvAcCaUzdnhQ6w0bnR7ZCQ",
+      "note": ""
+    },
+    {
+      "label": "Shadow Madness Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Shadow%20Madness%20(USA)%20(Disc%202).zip?e=1790479343&s=1zxCEZ6KOhoBtKDzGrNaG-dLlnpQcDUChODdKy8t4pI",
+      "note": ""
+    }
+  ],
+  "kartia-the-word-of-fate": [
+    {
+      "label": "Kartia: The Word of Fate Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Kartia%20-%20The%20Word%20of%20Fate%20(USA).zip?e=1790479389&s=mKJvymL7j30wrEVISlZuNpuQEHr6IS-mh3GZm-jxgTA",
+      "note": ""
+    }
+  ],
+  "azure-dreams": [
+    {
+      "label": "Azure Dreams Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Azure%20Dreams%20(USA).zip?e=1790479427&s=yi5d2GQDz8bFz9Uxx7k0a7ZL5dNhR-segwin-aksXsg",
+      "note": ""
+    }
+  ],
+  "threads-of-fate": [
+    {
+      "label": "Threads of Fate Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Threads%20of%20Fate%20(USA).zip?e=1790479458&s=Cl4EWoyGLh89kznhysYZXW73_Epe8MbKkqYQWB-R-dM",
+      "note": ""
+    }
+  ],
+  "jade-cocoon-story-of-the-tamamayu": [
+    {
+      "label": "Jade Cocoon: Story of the Tamamayu Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Jade%20Cocoon%20-%20Story%20of%20the%20Tamamayu%20(USA).zip?e=1790479481&s=-LFHo3IS2OB5h5s8KfYFih-R8veqRwGKbbt7MQD58Qw",
+      "note": ""
+    }
+  ],
+  "alundra-2": [
+    {
+      "label": "Alundra 2 Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://sto.romsfast.com/PSX/Alundra%202%20-%20A%20New%20Legend%20Begins%20(USA).zip?e=1790479507&s=-aWQ76rPaxWFGhyrMaYF34z62C4UWGHY6iWjMPYyuN4",
+      "note": ""
+    }
+  ],
+  "dark-seed": [
+    {
+      "label": "Dark Seed Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://mega.nz/#F!p7xRCYQY!lWbVlxpJpF8pwuFMtxzzSw",
+      "note": ""
+    }
+  ],
+  "dark-seed-ii": [
+    {
+      "label": "Dark Seed II Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://mega.nz/#F!lioRRajR!YZDZ3XE-7iz2vrV0EaRggQ",
+      "note": ""
+    }
+  ],
+  "bad-mojo": [
+    {
+      "label": "Bad Mojo Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "http://sto2.romsforever.co/0:/GOG/bad%20mojo%20redux.zip?e=1790479828&s=dFUJb8wktx9_H65Gq2rK0Wy3cdI_Jr-1s_jlWmB5uB4",
+      "note": ""
+    },
+    {
+      "label": "Bad Mojo Download",
+      "platform": "Mac",
+      "type": "download",
+      "url": "https://www.macintoshrepository.org/download.php?id=6141",
+      "note": ""
+    }
+  ],
+  "i-have-no-mouth-and-i-must-scream": [
+    {
+      "label": "I Have No Mouth, and I Must Scream Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://archive.org/download/ihnmaims/scummvm-0.12.0-win32/modern.zip",
+      "note": ""
+    }
+  ],
+  "phantasmagoria": [
+    {
+      "label": "Phantasmagoria Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "http://sto2.romsforever.co/0:/GOG/phantasmagoria.zip?e=1790480020&s=kTwJGtvRoVHS9hjjWDUFe1ae8Qlk91PIMykSighfzqU",
+      "note": ""
+    }
+  ],
+  "phantasmagoria-a-puzzle-of-flesh": [
+    {
+      "label": "Phantasmagoria: A Puzzle of Flesh Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "http://sto2.romsforever.co/0:/GOG/phantasmagoria%202.zip?e=1790480055&s=ybAiZfGtlUF8O0EqB1V8GuhKwycZ9K7Zk5QfCfY65lA",
+      "note": ""
+    }
+  ],
+  "ecstatica": [
+    {
+      "label": "Ecstatica Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://mega.nz/#F!9gs0QIbI!GaKIjA5gkRbIKHuinfruyw",
+      "note": ""
+    }
+  ],
+  "ecstatica-ii": [
+    {
+      "label": "Ecstatica II Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://mega.nz/#F!pglXzIxZ!2X6VGtpng45uCwcKgh5VIA",
+      "note": ""
+    }
+  ],
+  "realms-of-the-haunting": [
+    {
+      "label": "Realms of the Haunting Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://archive.org/download/msdos_Realms_of_the_Haunting_1997/Realms_of_the_Haunting_1997.zip",
+      "note": ""
+    }
+  ],
+  "the-dark-eye": [
+    {
+      "label": "The Dark Eye Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://archive.org/download/TheDarkEye-ZombsLair/The%20Dark%20Eye.exe",
+      "note": ""
+    },
+    {
+      "label": "The Dark Eye Download",
+      "platform": "Mac",
+      "type": "download",
+      "url": "https://www.macintoshrepository.org/download.php?id=5826",
+      "note": ""
+    }
+  ],
+  "lighthouse-the-dark-being": [
+    {
+      "label": "Lighthouse: The Dark Being Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://archive.org/download/msdos_Lighthouse_-_The_Dark_Being_1996/Lighthouse_-_The_Dark_Being_1996.zip",
+      "note": ""
+    },
+    {
+      "label": "Lighthouse: The Dark Being Download CD 1",
+      "platform": "Mac",
+      "type": "download",
+      "url": "https://www.macintoshrepository.org/download.php?id=25551",
+      "note": ""
+    },
+    {
+      "label": "Lighthouse: The Dark Being Download CD 2",
+      "platform": "Mac",
+      "type": "download",
+      "url": "https://www.macintoshrepository.org/download.php?id=25552",
+      "note": ""
+    },
+    {
+      "label": "Lighthouse: The Dark Being Download Patch 2.0",
+      "platform": "Mac",
+      "type": "patch",
+      "url": "https://www.macintoshrepository.org/download.php?id=43321",
+      "note": ""
+    },
+    {
+      "label": "Lighthouse: The Dark Being Download Patch 2.1",
+      "platform": "Mac",
+      "type": "patch",
+      "url": "https://www.macintoshrepository.org/download.php?id=7010",
+      "note": ""
+    }
+  ],
+  "amber-journeys-beyond": [
+    {
+      "label": "Amber: Journeys Beyond Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://mega.nz/folder/67RgSTZC#j8lg2HnpFJbJmuIwh7T8_g",
+      "note": ""
+    }
+  ],
+  "shivers": [
+    {
+      "label": "Shivers Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://gamesvoyager.com/files/shivers#",
+      "note": ""
+    }
+  ],
+  "shivers-ii-harvest-of-souls": [
+    {
+      "label": "Shivers II: Harvest of Souls Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://uploadhaven.com/download/de1c1da4eac0ce2ce367946546a020f9",
+      "note": ""
+    }
+  ],
+  "zork-nemesis": [
+    {
+      "label": "Zork Nemesis Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "http://sto2.romsforever.co/0:/GOG/zork%20nemesis%20the%20forbidden%20lands.zip?e=1790480614&s=oZgoafMB7UjN_qncjiHvAQDWKGq2z9AuJCDlB6o_Loo",
+      "note": ""
+    },
+    {
+      "label": "Zork Nemesis Download",
+      "platform": "Mac",
+      "type": "download",
+      "url": "https://www.macintoshrepository.org/download.php?id=6897",
+      "note": ""
+    }
+  ],
+  "faust-seven-games-of-the-soul": [
+    {
+      "label": "Faust: Seven Games of the Soul Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://archive.org/download/Faust-ZombsLair/Faust.exe",
+      "note": ""
+    }
+  ],
+  "morpheus": [
+    {
+      "label": "Morpheus Download Disc 1",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://www.myabandonware.com/download/mdid-morpheus",
+      "note": ""
+    },
+    {
+      "label": "Morpheus Download Disc 2",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://d2.xp.myabandonware.com/t/01800162-0373-4ee5-a412-627319064e21/Morpheus_Win_EN_ISO_CD2.zip",
+      "note": ""
+    },
+    {
+      "label": "Morpheus Download Disc 3",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://d2.xp.myabandonware.com/t/c811ea9f-5f16-455a-ad93-cf693f20d477/Morpheus_Win_EN_ISO_CD3.zip",
+      "note": ""
+    },
+    {
+      "label": "Morpheus Download Disc 1",
+      "platform": "Mac",
+      "type": "download",
+      "url": "https://www.myabandonware.com/download/mdid-morpheus",
+      "note": ""
+    },
+    {
+      "label": "Morpheus Download Disc 2",
+      "platform": "Mac",
+      "type": "download",
+      "url": "https://d2.xp.myabandonware.com/t/01800162-0373-4ee5-a412-627319064e21/Morpheus_Win_EN_ISO_CD2.zip",
+      "note": ""
+    },
+    {
+      "label": "Morpheus Download Disc 3",
+      "platform": "Mac",
+      "type": "download",
+      "url": "https://d2.xp.myabandonware.com/t/c811ea9f-5f16-455a-ad93-cf693f20d477/Morpheus_Win_EN_ISO_CD3.zip",
+      "note": ""
+    }
+  ],
+  "the-blackstone-chronicles": [
+    {
+      "label": "The Blackstone Chronicles Download",
+      "platform": "PC",
+      "type": "download",
+      "url": "https://mega.nz/#F!Vi4CDAiJ!DFHcQhvNkaYhKtAs8yqx-w",
+      "note": ""
+    }
   ]
 };
