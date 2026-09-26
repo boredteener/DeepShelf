@@ -861,7 +861,7 @@ window.REPAIR_MEDIA={"siren-2":{"repo":"Sony_-_PlayStation_2","platform":"PS2","
   const games = window.GAMES || [];
   const baseManifest = window.MEDIA_MANIFEST || {};
   const repairMedia = window.REPAIR_MEDIA || {};
-  const APP_VERSION = '1.1';
+  const APP_VERSION = '1.2';
   const $ = s => document.querySelector(s);
   const $$ = (s, root=document) => [...root.querySelectorAll(s)];
   const unique = a => [...new Set(a)];
@@ -973,26 +973,30 @@ function openCommandPalette(){const d=$('#commandPaletteDialog');paletteSelectio
 function executePalette(x){if(!x)return;$('#commandPaletteDialog').close();if(x.type==='game')return openGame(x.id);if(x.type==='developer')return openDeveloper(x.label);if(x.type==='publisher')return openPublisher(x.label);if(x.type==='platform')return openPlatform(x.label);if(x.type==='franchise')return openFranchise(x.label);if(x.action==='roulette')return openRoulette();if(x.action==='franchises')return openFranchiseIndex();if(x.action==='platforms')return openPlatformIndex();if(x.action)return switchView(x.action);}
 
   /* ---------- Verified media pipeline ---------- */
-  const COVER_CACHE_KEY = 'deepshelf:cover-cache-v10';
-  const MEDIA_CACHE_KEY = 'deepshelf:media-cache-v10';
-  const BUNDLE_CACHE_KEY = 'deepshelf:verified-media-v10';
-  const coverCache = {...(safe(localStorage.getItem('deepshelf:cover-cache-v9'))||{}),...(safe(localStorage.getItem(COVER_CACHE_KEY))||{})};
-  const mediaCache = {...(safe(localStorage.getItem('deepshelf:media-cache-v9'))||{}),...(safe(localStorage.getItem(MEDIA_CACHE_KEY))||{})};
-  const bundleCache = {...(safe(localStorage.getItem('deepshelf:verified-media-v9'))||{}),...(safe(localStorage.getItem(BUNDLE_CACHE_KEY))||{})};
-  const manifestState = safe(localStorage.getItem('deepshelf:media-manifest-v10')) || {};
-  const mediaLocks = safe(localStorage.getItem('deepshelf:media-locks-v10')) || {};
-  const mediaRejects = {...(safe(localStorage.getItem('deepshelf:media-rejects-v9'))||{}),...(safe(localStorage.getItem('deepshelf:media-rejects-v10'))||{})};
+  const COVER_CACHE_KEY = 'deepshelf:cover-cache-v11';
+  const MEDIA_CACHE_KEY = 'deepshelf:media-cache-v11';
+  const BUNDLE_CACHE_KEY = 'deepshelf:verified-media-v11';
+  const MANIFEST_CACHE_KEY = 'deepshelf:media-manifest-v11';
+  const LOCK_CACHE_KEY = 'deepshelf:media-locks-v11';
+  const REJECT_CACHE_KEY = 'deepshelf:media-rejects-v11';
+  const coverCache = {...(safe(localStorage.getItem('deepshelf:cover-cache-v10'))||{}),...(safe(localStorage.getItem(COVER_CACHE_KEY))||{})};
+  const mediaCache = {...(safe(localStorage.getItem('deepshelf:media-cache-v10'))||{}),...(safe(localStorage.getItem(MEDIA_CACHE_KEY))||{})};
+  const bundleCache = {...(safe(localStorage.getItem('deepshelf:verified-media-v10'))||{}),...(safe(localStorage.getItem(BUNDLE_CACHE_KEY))||{})};
+  const manifestState = {...(safe(localStorage.getItem('deepshelf:media-manifest-v10'))||{}),...(safe(localStorage.getItem(MANIFEST_CACHE_KEY))||{})};
+  const mediaLocks = {...(safe(localStorage.getItem('deepshelf:media-locks-v10'))||{}),...(safe(localStorage.getItem(LOCK_CACHE_KEY))||{})};
+  const mediaRejects = {...(safe(localStorage.getItem('deepshelf:media-rejects-v10'))||{}),...(safe(localStorage.getItem(REJECT_CACHE_KEY))||{})};
   const manualCovers = safe(localStorage.getItem('deepshelf:manual-covers-v1')) || {};
   const coverPending = new Map();
   const bundlePending = new Map();
-  const coverQueue=[]; let coverActive=0; const COVER_CONCURRENCY=4;
+  const coverQueue=[]; let coverActive=0; const COVER_CONCURRENCY=7;
   const systemTreeCache=new Map();
 
   const LIBRETRO_REPOS={
-    'PS1':'Sony_-_PlayStation','PS2':'Sony_-_PlayStation_2','PS3':'Sony_-_PlayStation_3','PSP':'Sony_-_PlayStation_Portable',
+    'PS1':'Sony_-_PlayStation','PS2':'Sony_-_PlayStation_2','PS3':'Sony_-_PlayStation_3','PSP':'Sony_-_PlayStation_Portable','PS Vita':'Sony_-_PlayStation_Vita',
     'Dreamcast':'Sega_-_Dreamcast','Saturn':'Sega_-_Saturn','GameCube':'Nintendo_-_GameCube','Wii':'Nintendo_-_Wii',
     'DS':'Nintendo_-_Nintendo_DS','Xbox':'Microsoft_-_Xbox','Xbox 360':'Microsoft_-_Xbox_360','3DO':'The_3DO_Company_-_3DO'
   };
+  const LIBRETRO_EXTRA_REPOS={'PC':['ScummVM']};
   const REGVAULT_SYSTEMS={'PS1':'psx','PS2':'ps2','PS3':'ps3','PS4':'ps4','PS5':'ps5','PSP':'psp','PS Vita':'psvita','Dreamcast':'dreamcast','Saturn':'saturn','GameCube':'gamecube','Wii':'wii','DS':'nds','Switch':'switch','Xbox':'xbox','Xbox 360':'xbox360','Xbox One':'xboxone','Xbox Series':'xboxseries','3DO':'3do'};
   const MEDIA_ALIASES={
     'lifeline':['Operator’s Side','Operators Side','Operator Side'],
@@ -1014,27 +1018,37 @@ function executePalette(x){if(!x)return;$('#commandPaletteDialog').close();if(x.
   function persistCoverCache(){saveJSON(COVER_CACHE_KEY,coverCache);}
   function persistMediaCache(){saveJSON(MEDIA_CACHE_KEY,mediaCache);}
   function persistBundleCache(){saveJSON(BUNDLE_CACHE_KEY,bundleCache);}
-  function persistManifest(){saveJSON('deepshelf:media-manifest-v10',manifestState);updateVerifiedMediaCount();}
-  function persistMediaLocks(){saveJSON('deepshelf:media-locks-v10',mediaLocks);}
-  function persistMediaRejects(){saveJSON('deepshelf:media-rejects-v10',mediaRejects);}
+  function persistManifest(){saveJSON(MANIFEST_CACHE_KEY,manifestState);updateVerifiedMediaCount();}
+  function persistMediaLocks(){saveJSON(LOCK_CACHE_KEY,mediaLocks);}
+  function persistMediaRejects(){saveJSON(REJECT_CACHE_KEY,mediaRejects);}
   function persistManualCovers(){saveJSON('deepshelf:manual-covers-v1',manualCovers);}
   function manifestEntry(id){return {...baseManifest[id],...(manifestState[id]||{})};}
   function isRejected(id,url){return !!(mediaRejects[id]||[]).includes(url);}
+  function packagedCover(g){
+    const m=manifestEntry(g.id);
+    if(m?.cover?.url&&!isRejected(g.id,m.cover.url))return m.cover;
+    if(g?.cover&&!isRejected(g.id,g.cover))return {url:g.cover,source:g.coverSource||g.cover,provider:'DeepShelf curated cover',label:g.platforms?.[0]||'',lang:'',pageTitle:null};
+    const r=repairMedia[g.id];
+    if(r?.coverPath&&r.repo){const url=rawGithub(r.repo,r.coverPath);if(!isRejected(g.id,url))return {url,source:githubSource(r.repo,r.coverPath),provider:'DeepShelf exact repair cover',label:r.platform||g.platforms?.[0]||'',lang:'',pageTitle:null};}
+    if(r?.steamAppId){const url=`https://cdn.cloudflare.steamstatic.com/steam/apps/${r.steamAppId}/library_600x900_2x.jpg`;if(!isRejected(g.id,url))return {url,source:`https://store.steampowered.com/app/${r.steamAppId}/`,provider:'DeepShelf seeded Steam portrait',label:'Steam / PC',lang:'',pageTitle:null};}
+    return null;
+  }
+  function displayCover(g){return manualCovers[g.id]||coverCache[g.id]||packagedCover(g)||null;}
   function updateVerifiedMediaCount(){const el=$('#verifiedMediaCount');if(!el)return;el.textContent=games.filter(g=>{const m={...baseManifest[g.id],...(manifestState[g.id]||{})};return !!(manualCovers[g.id]?.url||coverCache[g.id]?.url||m.cover?.url);}).length;}
   function mediaAuditState(g){const m=manifestEntry(g.id)||{},cover=manualCovers[g.id]||coverCache[g.id]||m.cover||null,captures=(mediaCache[`screens:${g.id}`]?.length?mediaCache[`screens:${g.id}`]:(m.captures||[]));return {cover,captures,provider:(cover?.provider||m.provider||''),locked:mediaLocks[g.id]!==false,status:m.status||'pending-verification'};}
   function mediaAuditCounts(){let covers=0,captures=0,missingCover=0,missingCapture=0,totalCaptures=0;for(const g of games){const a=mediaAuditState(g);if(a.cover?.url)covers++;else missingCover++;if(a.captures?.length){captures++;totalCaptures+=a.captures.length;}else missingCapture++;}return {covers,captures,missingCover,missingCapture,totalCaptures};}
 
-  function enqueueCover(task){return new Promise((resolve,reject)=>{coverQueue.push({task,resolve,reject});pumpCoverQueue();});}
+  function enqueueCover(task,priority=false){return new Promise((resolve,reject)=>{const item={task,resolve,reject};priority?coverQueue.unshift(item):coverQueue.push(item);pumpCoverQueue();});}
   function pumpCoverQueue(){while(coverActive<COVER_CONCURRENCY&&coverQueue.length){const item=coverQueue.shift();coverActive++;Promise.resolve().then(item.task).then(item.resolve,item.reject).finally(()=>{coverActive--;pumpCoverQueue();});}}
   function coverFallback(g, cls='cover-fallback', loading=true){return `<div class="${cls}${loading?' cover-loading':''}"><strong>${esc(g.title)}</strong><small>${loading?'verifying cover…':`${g.year} / ${esc(g.platforms[0])}`}</small></div>`;}
   function coverHTML(g, cls='cover-img', fallbackCls='cover-fallback'){
-    const cached=(manualCovers[g.id]?.url || coverCache[g.id]?.url || '');
-    const cachedMeta=manualCovers[g.id]||coverCache[g.id]||{};
+    const initial=displayCover(g),cached=initial?.url||'';
+    const cachedMeta=initial||{};
     return `<div class="cover-stack ds-cover-slot" data-game-id="${esc(g.id)}"><img class="${cls} ds-cover${cached?'':' is-loading'}" ${cached?`src="${esc(cached)}"`:''} ${cached?'':'hidden'} alt="${esc(g.title)} cover" loading="lazy"><div class="${fallbackCls}${cached?'':' cover-loading'}" ${cached?'hidden':''}><strong>${esc(g.title)}</strong><small>${cached?esc(cachedMeta.provider||'verified cover'):'verifying cover…'}</small></div></div>`;
   }
   function thumbHTML(g, cls='ledger-cover', fallback='ledger-fallback'){
-    const cached=(manualCovers[g.id]?.url || coverCache[g.id]?.url || '');
-    const cachedMeta=manualCovers[g.id]||coverCache[g.id]||{};
+    const initial=displayCover(g),cached=initial?.url||'';
+    const cachedMeta=initial||{};
     return `<div class="cover-stack ds-cover-slot" data-game-id="${esc(g.id)}"><img class="${cls} ds-cover${cached?'':' is-loading'}" ${cached?`src="${esc(cached)}"`:''} ${cached?'':'hidden'} alt="" loading="lazy"><div class="${fallback}" ${cached?'hidden':''}>VERIFY<br>…</div></div>`;
   }
   function apiURL(lang,params){const q=new URLSearchParams({origin:'*',format:'json',formatversion:'2',...params});return `https://${lang}.wikipedia.org/w/api.php?${q}`;}
@@ -1083,23 +1097,51 @@ function executePalette(x){if(!x)return;$('#commandPaletteDialog').close();if(x.
   function githubSource(repo,path){return `https://github.com/libretro-thumbnails/${repo}/blob/master/${path.split('/').map(encodeURIComponent).join('/')}`;}
   function buildPathIndex(paths){const idx=new Map();for(const path of paths){const toks=titleTokens(mediaBaseName(path)).filter(t=>t.length>=3);for(const t of toks.slice(0,5)){if(!idx.has(t))idx.set(t,[]);idx.get(t).push(path);}}return idx;}
   function indexedPathsForGame(g,paths,index){const toks=unique(titleForms(g).flatMap(titleTokens)).filter(t=>t.length>=3).sort((a,b)=>b.length-a.length);for(const t of toks){const hit=index.get(t);if(hit?.length)return hit;}return paths;}
-  async function getSystemTree(platform){
-    if(systemTreeCache.has(platform))return systemTreeCache.get(platform);
-    const repo=LIBRETRO_REPOS[platform];if(!repo)return null;
-    const p=(async()=>{const data=await jsonFetch(`https://api.github.com/repos/libretro-thumbnails/${repo}/git/trees/master?recursive=1`,16000);const tree=data?.tree||[];const box=tree.filter(x=>x.type==='blob'&&x.path.startsWith('Named_Boxarts/')&&/\.png$/i.test(x.path)).map(x=>x.path),snap=tree.filter(x=>x.type==='blob'&&x.path.startsWith('Named_Snaps/')&&/\.png$/i.test(x.path)).map(x=>x.path);return {repo,box,snap,boxIndex:buildPathIndex(box),snapIndex:buildPathIndex(snap)};})();
-    systemTreeCache.set(platform,p);try{return await p}catch(e){systemTreeCache.delete(platform);return null;}
+  function libretroSources(g){
+    const out=[];
+    for(const platform of (g.platforms||[])){
+      if(LIBRETRO_REPOS[platform])out.push({platform,repo:LIBRETRO_REPOS[platform]});
+      for(const repo of (LIBRETRO_EXTRA_REPOS[platform]||[]))out.push({platform,repo});
+    }
+    return out.filter((x,i,a)=>a.findIndex(y=>y.repo===x.repo)===i);
+  }
+  async function getSystemTree(platform,repoOverride=''){
+    const repo=repoOverride||LIBRETRO_REPOS[platform];if(!repo)return null;
+    const key=`${platform}:${repo}`;
+    if(systemTreeCache.has(key))return systemTreeCache.get(key);
+    const p=(async()=>{const data=await jsonFetch(`https://api.github.com/repos/libretro-thumbnails/${repo}/git/trees/master?recursive=1`,18000);const tree=data?.tree||[];const box=tree.filter(x=>x.type==='blob'&&x.path.startsWith('Named_Boxarts/')&&/\.png$/i.test(x.path)).map(x=>x.path),snap=tree.filter(x=>x.type==='blob'&&x.path.startsWith('Named_Snaps/')&&/\.png$/i.test(x.path)).map(x=>x.path);return {repo,box,snap,boxIndex:buildPathIndex(box),snapIndex:buildPathIndex(snap)};})();
+    systemTreeCache.set(key,p);try{return await p}catch(e){systemTreeCache.delete(key);return null;}
+  }
+  function directLibretroNames(g){
+    const regionOrder=g.region==='Japan'?[' (Japan)',' (USA)',' (Europe)','']:[' (USA)',' (Europe)',' (Japan)',''];
+    const forms=titleForms(g).slice(0,3),names=[];
+    for(const t of forms){
+      const variants=unique([t,String(t).replace(/:\s*/g,' - '),String(t).replace(/\s+\/\s+/g,' - ')]);
+      for(const v of variants)for(const suffix of regionOrder)names.push(`${v}${suffix}.png`);
+    }
+    return unique(names).slice(0,14);
+  }
+  async function directLibretroBundle(g){
+    const names=directLibretroNames(g);
+    for(const src of libretroSources(g)){
+      const candidates=names.map(name=>`Named_Boxarts/${name}`);
+      const results=await Promise.all(candidates.map(async path=>({path,ok:await probeImage(rawGithub(src.repo,path),3600)})));
+      const hit=results.find(x=>x.ok);if(!hit)continue;
+      const cover={url:rawGithub(src.repo,hit.path),source:githubSource(src.repo,hit.path),provider:'Libretro exact direct box art',label:src.platform,lang:'',pageTitle:null};
+      return {cover,screenshots:[],variants:[cover],provider:'Libretro direct exact match',confidence:100,platform:src.platform};
+    }
+    return null;
   }
   function rankLibretroPath(g,path){const base=mediaBaseName(path);let s=bestTitleScore(g,base);const n=norm(base);if(/\b(demo|beta|prototype|taikenban|sample)\b/.test(n))s-=5;return s;}
-  function chooseBestPath(g,paths,min=94){let best=null;for(const path of paths){const score=rankLibretroPath(g,path);if(!best||score>best.score)best={path,score};}return best&&best.score>=min?best:null;}
-  function chooseExactFamily(g,paths,min=96){return paths.map(path=>({path,score:rankLibretroPath(g,path)})).filter(x=>x.score>=min).sort((a,b)=>b.score-a.score).slice(0,6);}
+  function chooseBestPath(g,paths,min=90){let best=null;for(const path of paths){const score=rankLibretroPath(g,path);if(!best||score>best.score)best={path,score};}return best&&best.score>=min?best:null;}
+  function chooseExactFamily(g,paths,min=94){return paths.map(path=>({path,score:rankLibretroPath(g,path)})).filter(x=>x.score>=min).sort((a,b)=>b.score-a.score).slice(0,6);}
   async function libretroBundle(g){
-    const platforms=(g.platforms||[]).filter(p=>LIBRETRO_REPOS[p]);
-    for(const platform of platforms){
-      const idx=await getSystemTree(platform);if(!idx)continue;
+    for(const src of libretroSources(g)){
+      const platform=src.platform,idx=await getSystemTree(platform,src.repo);if(!idx)continue;
       const boxPool=indexedPathsForGame(g,idx.box,idx.boxIndex),snapPool=indexedPathsForGame(g,idx.snap,idx.snapIndex);
-      const coverPick=chooseBestPath(g,boxPool,94);if(!coverPick)continue;
-      const snapFamily=chooseExactFamily(g,snapPool,96);
-      const coverFamily=chooseExactFamily(g,boxPool,96);
+      const coverPick=chooseBestPath(g,boxPool,90);if(!coverPick)continue;
+      const snapFamily=chooseExactFamily(g,snapPool,94);
+      const coverFamily=chooseExactFamily(g,boxPool,94);
       const cover={url:rawGithub(idx.repo,coverPick.path),source:githubSource(idx.repo,coverPick.path),provider:'Libretro verified box art',label:platform,lang:'',pageTitle:null};
       const screenshots=snapFamily.map(x=>({url:rawGithub(idx.repo,x.path),source:githubSource(idx.repo,x.path),provider:'Libretro verified snap',title:x.path,label:platform}));
       const variants=coverFamily.map(x=>({url:rawGithub(idx.repo,x.path),source:githubSource(idx.repo,x.path),provider:'Libretro verified box art',label:mediaBaseName(x.path),lang:'',pageTitle:null}));
@@ -1250,9 +1292,23 @@ function executePalette(x){if(!x)return;$('#commandPaletteDialog').close();if(x.
     return null;
   }
   async function strictWikiBundle(g){const langs=unique(['en',REGION_LANG[g.region],'ja'].filter(Boolean));for(const lang of langs){try{const cover=await exactWikiPageCover(g,lang);if(cover)return {cover,screenshots:[],variants:[cover],provider:'Wikimedia',confidence:96,platform:lang};}catch{}}return null;}
+  async function wikiSearchBundle(g){
+    const langs=unique(['en',REGION_LANG[g.region],'ja'].filter(Boolean));
+    for(const lang of langs){
+      try{
+        const data=await jsonFetch(apiURL(lang,{action:'query',list:'search',srlimit:'6',srnamespace:'0',srsearch:`intitle:"${g.title}" video game`}),12000);
+        const hits=(data?.query?.search||[]).map(x=>({title:x.title,score:rankPageTitleForGame(g,x.title)})).filter(x=>x.score>=82).sort((a,b)=>b.score-a.score).slice(0,3);
+        for(const hit of hits){
+          const cover=await exactWikiPageCover({...g,wikiTitle:hit.title},lang);
+          if(cover)return {cover,screenshots:[],variants:[cover],provider:'Wikimedia searched exact cover',confidence:Math.min(95,hit.score),platform:lang};
+        }
+      }catch{}
+    }
+    return null;
+  }
 
   async function resolveVerifiedBundleNow(g){
-    const providers=[staticRepairBundle,libretroBundle,steamPortraitBundle,regVaultBundle,strictWikiBundle,seedCoverBundle];
+    const providers=[staticRepairBundle,directLibretroBundle,libretroBundle,steamPortraitBundle,regVaultBundle,strictWikiBundle,wikiSearchBundle,seedCoverBundle];
     for(const fn of providers){
       try{
         const b=await fn(g);
@@ -1271,20 +1327,20 @@ function executePalette(x){if(!x)return;$('#commandPaletteDialog').close();if(x.
     if(mediaLocks[g.id]===undefined)mediaLocks[g.id]=true;
     persistBundleCache();persistCoverCache();persistMediaCache();persistManifest();persistMediaLocks();
   }
-  function resolveVerifiedBundle(g){
+  function resolveVerifiedBundle(g,priority=false){
     const locked=mediaLocks[g.id]!==false;
     if(locked&&manifestState[g.id]?.cover?.url&&!isRejected(g.id,manifestState[g.id].cover.url))return Promise.resolve({cover:manifestState[g.id].cover,screenshots:manifestState[g.id].captures||[],variants:manifestState[g.id].variants||[],provider:manifestState[g.id].provider||'locked manifest',confidence:manifestState[g.id].confidence||100,platform:manifestState[g.id].platform||''});
     if(bundleCache[g.id]?.cover?.url&&!isRejected(g.id,bundleCache[g.id].cover.url))return Promise.resolve(bundleCache[g.id]);
     if(bundlePending.has(g.id))return bundlePending.get(g.id);
-    const p=enqueueCover(async()=>{const b=await resolveVerifiedBundleNow(g);if(b)recordVerifiedBundle(g,b);else{manifestState[g.id]={...(manifestState[g.id]||{}),status:'checked-no-media',checkedAt:new Date().toISOString(),locked:false};persistManifest();}return b;}).finally(()=>bundlePending.delete(g.id));
+    const p=enqueueCover(async()=>{const b=await resolveVerifiedBundleNow(g);if(b)recordVerifiedBundle(g,b);else{manifestState[g.id]={...(manifestState[g.id]||{}),status:'checked-no-media',checkedAt:new Date().toISOString(),locked:false};persistManifest();}return b;},priority).finally(()=>bundlePending.delete(g.id));
     bundlePending.set(g.id,p);return p;
   }
-  function resolveCover(g){if(manualCovers[g.id]?.url)return Promise.resolve(manualCovers[g.id]);if(coverCache[g.id]?.url)return Promise.resolve(coverCache[g.id]);return resolveVerifiedBundle(g).then(b=>b?.cover||null);}
+  function resolveCover(g,priority=false){if(manualCovers[g.id]?.url)return Promise.resolve(manualCovers[g.id]);if(coverCache[g.id]?.url)return Promise.resolve(coverCache[g.id]);return resolveVerifiedBundle(g,priority).then(b=>b?.cover||null);}
   function setCoverSlot(slot,meta){const img=slot.querySelector('.ds-cover'),fallback=slot.querySelector(':scope > div');if(!img||!fallback)return;if(meta?.url){img.src=meta.url;img.hidden=false;img.classList.remove('is-loading');fallback.hidden=true;img.onerror=()=>{img.hidden=true;fallback.hidden=false;fallback.classList.remove('cover-loading');const small=fallback.querySelector('small');if(small)small.textContent='verified source failed — trying another source';const id=slot.dataset.gameId,failed=meta?.url||img.src;delete coverCache[id];delete bundleCache[id];if(failed){mediaRejects[id]=unique([...(mediaRejects[id]||[]),failed]);persistMediaRejects();}if(manifestState[id]?.cover?.url===failed){manifestState[id]={...(manifestState[id]||{}),cover:null,status:'repair-source-failed',locked:false};mediaLocks[id]=false;persistManifest();persistMediaLocks();}persistCoverCache();persistBundleCache();slot.dataset.hydrated='';slot.dataset.coverWatched='';setTimeout(()=>hydrateCoverSlot(slot),120);};}else{img.hidden=true;fallback.hidden=false;fallback.classList.remove('cover-loading');const small=fallback.querySelector('small');if(small)small.textContent='no verified cover found';}}
-  async function hydrateCoverSlot(slot){if(slot.dataset.hydrated==='1')return;slot.dataset.hydrated='1';const g=games.find(x=>x.id===slot.dataset.gameId);if(!g)return;const meta=manualCovers[g.id]||coverCache[g.id]||await resolveCover(g);setCoverSlot(slot,meta);}
+  async function hydrateCoverSlot(slot){if(slot.dataset.hydrated==='1')return;slot.dataset.hydrated='1';const g=games.find(x=>x.id===slot.dataset.gameId);if(!g)return;const immediate=displayCover(g);if(immediate)setCoverSlot(slot,immediate);const meta=manualCovers[g.id]||coverCache[g.id]||await resolveCover(g,true);if(meta&&meta.url!==immediate?.url)setCoverSlot(slot,meta);else if(!meta&&!immediate)setCoverSlot(slot,null);}
   const coverObserver=('IntersectionObserver' in window)?new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){coverObserver.unobserve(e.target);hydrateCoverSlot(e.target);}}),{rootMargin:'700px'}):null;
   function hydrateCovers(root=document){$$('.ds-cover-slot',root).forEach(slot=>{if(slot.dataset.coverWatched)return;slot.dataset.coverWatched='1';if(coverObserver)coverObserver.observe(slot);else hydrateCoverSlot(slot);});}
-  async function prewarmCovers(list){for(const g of list.slice(0,14))resolveCover(g).catch(()=>{});}
+  async function prewarmCovers(list){for(const g of list.slice(0,18))resolveCover(g,true).catch(()=>{});}
   async function batchPrimeEnglishCovers(){
     const priority=games.filter(g=>state.recent.includes(g.id)||state.shelf[g.id]);
     const repairPriority=games.filter(g=>repairMedia[g.id]?.steamAppId&&!coverCache[g.id]?.url&&!priority.some(p=>p.id===g.id));
@@ -1294,8 +1350,8 @@ function executePalette(x){if(!x)return;$('#commandPaletteDialog').close();if(x.
     // hammer the media services or freeze the UI. Successful verified results cache locally.
     for(let i=0;i<queue.length;i++){
       const g=queue[i];
-      if(!coverCache[g.id]?.url)resolveVerifiedBundle(g).catch(()=>{});
-      if(i%8===7)await new Promise(r=>setTimeout(r,420));
+      if(!coverCache[g.id]?.url)resolveVerifiedBundle(g,false).catch(()=>{});
+      if(i%12===11)await new Promise(r=>setTimeout(r,180));
     }
   }
 
