@@ -1,5 +1,5 @@
 /* DeepShelf 1.1 — manually curated public download/play links. */
-window.DEEPSHELF_DOWNLOADS_VERSION = '1.1.3';
+window.DEEPSHELF_DOWNLOADS_VERSION = '1.1.4';
 window.DEEPSHELF_DOWNLOADS = {
   "haunting-ground": [
     {
@@ -24,6 +24,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://pluto.romulation.net/files/guest/eyJpdiI6Ikc1dUUrM2FQWFNRVkxQMDcwdy9LR3c9PSIsInZhbHVlIjoiaHVXSjFudkFGd25PRDN5eWtOaDlYZktpV2lTSE81RzY1Vm9sUEppWXVJcTc1Ri9Tc0pUUTdTL0p3OTg2MjdzRSIsIm1hYyI6ImNlMjQyODEwOWJmNzNkYjA4OTBmMzkyM2EyYWViNjcxNmQ4ZDA2NTU4NWIwOTBmYTNhYjg2NjkwMDRhNmE2ZWUiLCJ0YWciOiIifQ==/",
       "note": ""
+    },
+    {
+      "label": "Cold Fear Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/cold-fear-16164/2",
+      "note": ""
     }
   ],
   "the-thing": [
@@ -40,6 +47,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://romsfun.com/download/the-thing-2-101106/3",
       "note": ""
+    },
+    {
+      "label": "The Thing Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://www.emuparadise.me/Sony_Playstation_2_ISOs/Thing,_The_(USA)/150850-download",
+      "note": ""
     }
   ],
   "martian-gothic": [
@@ -48,6 +62,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PC",
       "type": "download",
       "url": "https://archive.org/download/MartianGothic-ZombsLair/Martian%20Gothic%20-%20Unification.exe",
+      "note": ""
+    },
+    {
+      "label": "Martian Gothic: Unification Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/martian-gothic-unification-22084/3",
       "note": ""
     }
   ],
@@ -71,6 +92,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "Xbox",
       "type": "download",
       "url": "https://romspure.cc/download/shadow-of-memories-57837/1",
+      "note": ""
+    },
+    {
+      "label": "Shadow of Memories Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/shadow-of-memories-18014/2",
       "note": ""
     }
   ],
@@ -352,6 +380,20 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://mega.nz/folder/6dVGmTYS#Cl7pU7h1k0N9uElO7XR-dA",
       "note": ""
+    },
+    {
+      "label": "Stupid Invaders Download Disc 1",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/stupid-invaders-79241/5",
+      "note": ""
+    },
+    {
+      "label": "Stupid Invaders Download Disc 2",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/stupid-invaders-79241/6",
+      "note": ""
     }
   ],
   "omikron": [
@@ -360,6 +402,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PC",
       "type": "download",
       "url": "https://uploadhaven.com/download/fe47e144e16f265ef87a62986cbd1fd9",
+      "note": ""
+    },
+    {
+      "label": "Omikron: The Nomad Soul Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/omikron-the-nomad-soul-78876/1",
       "note": ""
     }
   ],
@@ -376,6 +425,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "Dreamcast",
       "type": "download",
       "url": "https://www.emuparadise.me/Sega_Dreamcast_ISOs/Urban_Chaos_(USA)(En,Fr)/225-download-1667",
+      "note": ""
+    },
+    {
+      "label": "Urban Chaos Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/urban-chaos-2-135543/5",
       "note": ""
     }
   ],
@@ -395,6 +451,34 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://uploadhaven.com/download/bce6fa4dc7fc384c092676107b5e0ecf",
       "note": ""
+    },
+    {
+      "label": "Fear Effect Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/fear-effect-26157/13",
+      "note": ""
+    },
+    {
+      "label": "Fear Effect Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/fear-effect-26157/14",
+      "note": ""
+    },
+    {
+      "label": "Fear Effect Download Disc 3",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/fear-effect-26157/15",
+      "note": ""
+    },
+    {
+      "label": "Fear Effect Download Disc 4",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/fear-effect-26157/16",
+      "note": ""
     }
   ],
   "fear-effect-2": [
@@ -404,6 +488,34 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://uploadhaven.com/download/ef967d82d1dca1a502b14dd4ae4bc5a0",
       "note": ""
+    },
+    {
+      "label": "Fear Effect 2: Retro Helix Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/fear-effect-2-retro-helix-25269/6",
+      "note": ""
+    },
+    {
+      "label": "Fear Effect 2: Retro Helix Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/fear-effect-2-retro-helix-25269/8",
+      "note": ""
+    },
+    {
+      "label": "Fear Effect 2: Retro Helix Download Disc 3",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/fear-effect-2-retro-helix-25269/10",
+      "note": ""
+    },
+    {
+      "label": "Fear Effect 2: Retro Helix Download Disc 4",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/fear-effect-2-retro-helix-25269/12",
+      "note": ""
     }
   ],
   "moon-remix-rpg": [
@@ -412,6 +524,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PC",
       "type": "download",
       "url": "https://uploadhaven.com/download/0743b5b4d6b2ab016c3474d819dd917a",
+      "note": ""
+    },
+    {
+      "label": "moon: Remix RPG Adventure Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/moon-remix-rpg-adventure-132241/2",
       "note": ""
     }
   ],
@@ -657,6 +776,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://uploadhaven.com/download/f6bdf60177b3826b943a3ca26e2acd38",
       "note": ""
+    },
+    {
+      "label": "Obscure Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romspure.cc/download/obscure-16646/5",
+      "note": ""
     }
   ],
   "obscure-2": [
@@ -680,6 +806,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://dl2.vimm.net/?mediaId=9432&alt=1&token=WlhVNFpEVHh6MHJnSDBtSkthcTFKS2pra0VuRU1uOW1jK1JUUHliMzo6GiOFzJwHcQehoqeq7CzyRw%3D%3D",
       "note": ""
+    },
+    {
+      "label": "Obscure 2: The Aftermath Download",
+      "platform": "PSP",
+      "type": "download",
+      "url": "https://romsfun.com/download/obscure-the-aftermath-11427/2",
+      "note": ""
     }
   ],
   "the-suffering": [
@@ -695,6 +828,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PC",
       "type": "download",
       "url": "https://archive.org/download/TheSufferingPrisonIsHell-LivBs/Win/The%20Suffering%20%28English%29%20%5BWindows%5D.zip",
+      "note": ""
+    },
+    {
+      "label": "The Suffering Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://archive.org/download/TheSufferingPrisonIsHell-LivBs/PS2/The%20Suffering%20%28USA%29%20%5BPS2%5D.zip",
       "note": ""
     }
   ],
@@ -802,6 +942,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://romspure.cc/download/flower-sun-and-rain-murder-and-mystery-in-paradise-37564/2",
       "note": ""
+    },
+    {
+      "label": "Flower, Sun, and Rain Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/flower-sun-and-rain-2-311767/1",
+      "note": ""
     }
   ],
   "clock-tower-3": [
@@ -861,6 +1008,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://romsfun.com/download/silent-hill-4-the-room-3-100852/2",
       "note": ""
+    },
+    {
+      "label": "Silent Hill 4: The Room Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/silent-hill-4-the-room-14891/4",
+      "note": ""
     }
   ],
   "silent-hill-origins": [
@@ -869,6 +1023,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PSP",
       "type": "download",
       "url": "https://archive.org/download/PSPSilentHillOriginsUSAEnFrDeEsIt/Silent%20Hill%20Origins%20%28USA%29%20%28En%2CFr%2CDe%2CEs%2CIt%29.iso",
+      "note": ""
+    },
+    {
+      "label": "Silent Hill: Origins Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/silent-hill-origins-2-89474/3",
       "note": ""
     }
   ],
@@ -885,6 +1046,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PSP",
       "type": "download",
       "url": "https://archive.org/download/PSPSilentHillShatteredMemoriesUSA/Silent%20Hill%20-%20Shattered%20Memories%20%28USA%29.iso",
+      "note": ""
+    },
+    {
+      "label": "Silent Hill: Shattered Memories Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/silent-hill-shattered-memories-5-166310/3",
       "note": ""
     }
   ],
@@ -919,6 +1087,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PC",
       "type": "download",
       "url": "https://uploadhaven.com/download/e7713c1aa149ff516b395793ae32e0f1",
+      "note": ""
+    },
+    {
+      "label": "The Suffering: Ties That Bind Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/the-suffering-ties-that-bind-16195/5",
       "note": ""
     }
   ],
@@ -1064,6 +1239,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://romsfun.com/download/rent-a-hero-no-1-3-100732/1",
       "note": ""
+    },
+    {
+      "label": "Rent A Hero No. 1 Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/rent-a-hero-no-1-2-79014/2",
+      "note": ""
     }
   ],
   "silverload": [
@@ -1089,6 +1271,55 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://uploadhaven.com/download/0a1f9835438cf4c84f09688de09fe742",
       "note": ""
+    },
+    {
+      "label": "D Download Disc 1",
+      "platform": "3DO",
+      "type": "download",
+      "url": "https://romsfun.com/download/d-2-121433/3",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 2",
+      "platform": "3DO",
+      "type": "download",
+      "url": "https://romsfun.com/download/d-2-121433/4",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/d-43534/8",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/d-43534/10",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/d-3-129880/14",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/d-3-129880/15",
+      "note": ""
+    },
+    {
+      "label": "D Download Disc 3",
+      "platform": "3DO",
+      "type": "download",
+      "url": "https://romsfun.com/download/d-3-129880/16",
+      "note": ""
     }
   ],
   "enemy-zero": [
@@ -1097,6 +1328,34 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PC",
       "type": "download",
       "url": "https://romsfun.com/download/enemy-zero-2-277153/1",
+      "note": ""
+    },
+    {
+      "label": "Enemy Zero Download Disc 0",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/enemy-zero-43464/21",
+      "note": ""
+    },
+    {
+      "label": "Enemy Zero Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/enemy-zero-43464/22",
+      "note": ""
+    },
+    {
+      "label": "Enemy Zero Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/enemy-zero-43464/23",
+      "note": ""
+    },
+    {
+      "label": "Enemy Zero Download Disc 3",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/enemy-zero-43464/24",
       "note": ""
     }
   ],
@@ -1123,6 +1382,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://archive.org/download/NightmareCreatures-ZombsLair/Nightmare%20Creatures.exe",
       "note": ""
+    },
+    {
+      "label": "Nightmare Creatures Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/nightmare-creatures-23351/6",
+      "note": ""
     }
   ],
   "nightmare-creatures-ii": [
@@ -1131,6 +1397,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "Dreamcast",
       "type": "download",
       "url": "https://d2.xp.myabandonware.com/t/cc7db86b-cf42-4199-af98-ca7352f3f7e6/Nightmare-Creatures_Win_EN_ISO-Version.zip",
+      "note": ""
+    },
+    {
+      "label": "Nightmare Creatures II Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/nightmare-creatures-ii-23354/2",
       "note": ""
     }
   ],
@@ -1157,6 +1430,20 @@ window.DEEPSHELF_DOWNLOADS = {
       "type": "download",
       "url": "https://uploadhaven.com/download/12571812872ef336ea0f9a91ddcc5220",
       "note": ""
+    },
+    {
+      "label": "In Cold Blood Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/in-cold-blood-24282/3",
+      "note": ""
+    },
+    {
+      "label": "In Cold Blood Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/in-cold-blood-24282/4",
+      "note": ""
     }
   ],
   "the-city-of-lost-children": [
@@ -1165,6 +1452,13 @@ window.DEEPSHELF_DOWNLOADS = {
       "platform": "PC",
       "type": "download",
       "url": "https://mega.nz/folder/4r5T1YgD#f9cOdtrEmOCceCKBZIJ7zg",
+      "note": ""
+    },
+    {
+      "label": "The City of Lost Children Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/the-city-of-lost-children-134952/2",
       "note": ""
     }
   ],
@@ -1201,6 +1495,947 @@ window.DEEPSHELF_DOWNLOADS = {
       "url": "https://uploadhaven.com/download/3dff602725bf37587ee15905e68dbfed",
       "note": ""
     }
+  ],
+  "rule-of-rose": [
+    {
+      "label": "Rule of Rose Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/rule-of-rose-15666/5",
+      "note": ""
+    }
+  ],
+  "michigan-report-from-hell": [
+    {
+      "label": "Michigan: Report from Hell Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/michigan-report-from-hell-19304/1",
+      "note": "Only had an Europe and Japan release, never came out in North America. Download is Europe."
+    }
+  ],
+  "kuon": [
+    {
+      "label": "Kuon Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/kuon-19697/3",
+      "note": ""
+    }
+  ],
+  "echo-night-beyond": [
+    {
+      "label": "Echo Night: Beyond Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/echo-night-beyond-87104/4",
+      "note": ""
+    }
+  ],
+  "kowloons-gate": [
+    {
+      "label": "Kowloon's Gate Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/kowloons-gate-kowloon-fuusuiden-24575/17",
+      "note": ""
+    },
+    {
+      "label": "Kowloon's Gate Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/kowloons-gate-kowloon-fuusuiden-24575/18",
+      "note": ""
+    },
+    {
+      "label": "Kowloon's Gate Download Disc 3",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/kowloons-gate-kowloon-fuusuiden-24575/19",
+      "note": ""
+    },
+    {
+      "label": "Kowloon's Gate Download Disc 4",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/kowloons-gate-kowloon-fuusuiden-24575/20",
+      "note": ""
+    }
+  ],
+  "germs": [
+    {
+      "label": "GERMS: Nerawareta Machi Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/germs-130658/1",
+      "note": ""
+    }
+  ],
+  "forbidden-siren": [
+    {
+      "label": "Forbidden Siren Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romspure.cc/download/forbidden-siren-14690/2",
+      "note": ""
+    }
+  ],
+  "extermination": [
+    {
+      "label": "Extermination Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romspure.cc/download/extermination-14482/5",
+      "note": ""
+    }
+  ],
+  "carrier": [
+    {
+      "label": "Carrier Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://www.emuparadise.me/Sega_Dreamcast_ISOs/Carrier_(USA)/23-download-187",
+      "note": ""
+    }
+  ],
+  "illbleed": [
+    {
+      "label": "Illbleed Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://www.emuparadise.me/Sega_Dreamcast_ISOs/Illbleed_(USA)/77-download-638",
+      "note": ""
+    }
+  ],
+  "d2": [
+    {
+      "label": "D2 Download Disc 1",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/d2-78186/1",
+      "note": ""
+    },
+    {
+      "label": "D2 Download Disc 2",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/d2-78186/2",
+      "note": ""
+    },
+    {
+      "label": "D2 Download Disc 3",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/d2-78186/3",
+      "note": ""
+    },
+    {
+      "label": "D2 Download Disc 4",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/d2-78186/4",
+      "note": ""
+    }
+  ],
+  "blue-stinger": [
+    {
+      "label": "Blue Stinger Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://www.emuparadise.me/Sega_Dreamcast_ISOs/Blue_Stinger_(USA)/16-download-129",
+      "note": ""
+    }
+  ],
+  "hellnight": [
+    {
+      "label": "Hellnight Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/hellnight-130879/1",
+      "note": ""
+    }
+  ],
+  "galerians": [
+    {
+      "label": "Galerians Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/galerians-22362/17",
+      "note": ""
+    },
+    {
+      "label": "Galerians Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/galerians-22362/18",
+      "note": ""
+    },
+    {
+      "label": "Galerians Download Disc 3",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/galerians-22362/19",
+      "note": ""
+    }
+  ],
+  "countdown-vampires": [
+    {
+      "label": "Countdown Vampires Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romspure.cc/download/countdown-vampires-7258/3",
+      "note": ""
+    },
+    {
+      "label": "Countdown Vampires Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romspure.cc/download/countdown-vampires-7258/4",
+      "note": ""
+    }
+  ],
+  "overblood": [
+    {
+      "label": "OverBlood Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romspure.cc/download/overblood-10121/6",
+      "note": ""
+    }
+  ],
+  "koudelka": [
+    {
+      "label": "Koudelka Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/koudelka-24470/27",
+      "note": ""
+    },
+    {
+      "label": "Koudelka Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/koudelka-24470/28",
+      "note": ""
+    },
+    {
+      "label": "Koudelka Download Disc 3",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/koudelka-24470/29",
+      "note": ""
+    },
+    {
+      "label": "Koudelka Download Disc 4",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/koudelka-24470/30",
+      "note": ""
+    }
+  ],
+  "shadow-tower": [
+    {
+      "label": "Shadow Tower Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/shadow-tower-28809/2",
+      "note": ""
+    }
+  ],
+  "baroque": [
+    {
+      "label": "Baroque Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/baroque-3-102964/2",
+      "note": ""
+    },
+    {
+      "label": "Baroque Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/baroque-4-129268/2",
+      "note": ""
+    },
+    {
+      "label": "Baroque Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/baroque-2-16354/3",
+      "note": ""
+    },
+    {
+      "label": "Baroque Download",
+      "platform": "Wii",
+      "type": "download",
+      "url": "https://romsfun.com/download/baroque-56115/2",
+      "note": "This undub features carried over Japanese timings for both the EVENT and TALK-type scripts, reformatted TALK subtitles to match the Japanese subs as close as possible, a few restored & translated scripts that were replaced with duplicates in the localised versions of the game, and hardsubbed pre-rendered versions of the cutscenes (including the last scene of the ending).\nMany of the TALK-type scripts required tapping into the fifth line that touches the bottom edge of display, though. Sorry for the especially unsightly text formatting in such cases, but that is due to strict line character limits that the Wii version's 4:3 mode and the PS2 version have.\nNotes:\n※ Placement of most of the line breaks in larger TALK scripts was automated, hence why you might see some formatting gore here and there.\n※ This undub used to have nicer newline formatting across the board back in the 1.1 & 1.1a versions, but this new formatting was implemented to fix the text in 4:3 mode and unify the \"undubbed\" TALK scripts with the PS2 version for easier maintenance later on."
+    }
+  ],
+  "lifeline": [
+    {
+      "label": "Lifeline Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://www.emuparadise.me/Sony_Playstation_2_ISOs/Life_Line_(USA)/150782-download",
+      "note": ""
+    }
+  ],
+  "hungry-ghosts": [
+    {
+      "label": "Hungry Ghosts Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/hungry-ghosts-87824/1",
+      "note": ""
+    }
+  ],
+  "disaster-report": [
+    {
+      "label": "Disaster Report Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://www.emuparadise.me/Sony_Playstation_2_ISOs/Disaster_Report_(USA)/150491-download",
+      "note": ""
+    }
+  ],
+  "raw-danger": [
+    {
+      "label": "Raw Danger! Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/raw-danger-89016/2",
+      "note": ""
+    }
+  ],
+  "mister-mosquito": [
+    {
+      "label": "Mister Mosquito Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/mister-mosquito-88392/1",
+      "note": ""
+    }
+  ],
+  "chulip": [
+    {
+      "label": "Chulip Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/chulip-86660/2",
+      "note": ""
+    }
+  ],
+  "steambot-chronicles": [
+    {
+      "label": "Steambot Chronicles Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/steambot-chronicles-18350/5",
+      "note": ""
+    }
+  ],
+  "stretch-panic": [
+    {
+      "label": "Stretch Panic Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/stretch-panic-89809/1",
+      "note": ""
+    }
+  ],
+  "lsd-dream-emulator": [
+    {
+      "label": "LDS: Dream Emulator Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/lsd-dream-emulator-25880/1",
+      "note": ""
+    }
+  ],
+  "planet-laika": [
+    {
+      "label": "Planet Laika Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://cdromance.org/psx-iso/planet-laika-japan/",
+      "note": ""
+    }
+  ],
+  "nanashi-no-game": [
+    {
+      "label": "Nanashi no Game Download",
+      "platform": "DS",
+      "type": "download",
+      "url": "https://romsfun.com/download/nanashi-no-game-118146/2",
+      "note": ""
+    }
+  ],
+  "nanashi-no-game-me": [
+    {
+      "label": "Nanashi no Game: Me Download",
+      "platform": "DS",
+      "type": "download",
+      "url": "https://romsfun.com/download/nanashi-no-game-me-118148/1",
+      "note": ""
+    }
+  ],
+  "maken-x": [
+    {
+      "label": "Maken X Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/maken-x-78671/3",
+      "note": ""
+    }
+  ],
+  "elemental-gimmick-gear": [
+    {
+      "label": "Elemental Gimmick Gear Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romspure.cc/download/egg-elemental-gimmick-gear-55376/2",
+      "note": ""
+    }
+  ],
+  "seventh-cross-evolution": [
+    {
+      "label": "Seventh Cross: Evolution Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/seventh-cross-evolution-79113/1",
+      "note": ""
+    }
+  ],
+  "frame-gride": [
+    {
+      "label": "Frame Gride Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/frame-gride-78397/3",
+      "note": ""
+    }
+  ],
+  "draconus": [
+    {
+      "label": "Draconus: Cult of the Wyrm Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/draconus-cult-of-the-wyrm-78272/1",
+      "note": ""
+    }
+  ],
+  "industrial-spy": [
+    {
+      "label": "Industrial Spy: Operation Espionage Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/industrial-spy-operation-espionage-78538/1",
+      "note": ""
+    }
+  ],
+  "echo-night": [
+    {
+      "label": "Echo Night Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/echo-night-23342/2",
+      "note": ""
+    }
+  ],
+  "overblood-2": [
+    {
+      "label": "OverBlood 2 Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/overblood-2-24042/2",
+      "note": ""
+    },
+    {
+      "label": "OverBlood 2 Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/overblood-2-24042/4",
+      "note": ""
+    }
+  ],
+  "chaos-break": [
+    {
+      "label": "Chaos Break Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/chaos-break-129642/1",
+      "note": ""
+    }
+  ],
+  "rising-zan": [
+    {
+      "label": "Rising Zan: The Samurai Gunman Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/rising-zan-the-samurai-gunman-26276/3",
+      "note": ""
+    }
+  ],
+  "mizzurna-falls": [
+    {
+      "label": "Mizzurna Falls Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/mizzurna-falls-132177/3",
+      "note": ""
+    }
+  ],
+  "linda3-again": [
+    {
+      "label": "Linda³ Again Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/linda-cube-again-131767/5",
+      "note": ""
+    }
+  ],
+  "twilight-syndrome": [
+    {
+      "label": "Twilight Syndrome: Tansaku-hen Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/twilight-syndrome-tansaku-hen-135449/1",
+      "note": ""
+    }
+  ],
+  "moonlight-syndrome": [
+    {
+      "label": "Moonlight Syndrome Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/moonlight-syndrome-24461/2",
+      "note": ""
+    },
+    {
+      "label": "Moonlight Syndrome Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/moonlight-syndrome-24461/3",
+      "note": ""
+    }
+  ],
+  "siren-2": [
+    {
+      "label": "Forbidden Siren 2 Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/forbidden-siren-2-15220/1",
+      "note": ""
+    }
+  ],
+  "the-note": [
+    {
+      "label": "The Note Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/the-note-135064/1",
+      "note": ""
+    }
+  ],
+  "juggernaut": [
+    {
+      "label": "Juggernaut Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/juggernaut-senritsu-no-tobira-23135/7",
+      "note": ""
+    },
+    {
+      "label": "Juggernaut Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/juggernaut-senritsu-no-tobira-23135/8",
+      "note": ""
+    },
+    {
+      "label": "Juggernaut Download Disc 3",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/juggernaut-senritsu-no-tobira-23135/9",
+      "note": ""
+    }
+  ],
+  "aconcagua": [
+    {
+      "label": "Aconcagua Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/aconcagua-22812/1",
+      "note": ""
+    },
+    {
+      "label": "Aconcagua Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/aconcagua-22812/2",
+      "note": ""
+    }
+  ],
+  "phase-paradox": [
+    {
+      "label": "Phase Paradox Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/phase-paradox-88789/4",
+      "note": ""
+    }
+  ],
+  "the-fear": [
+    {
+      "label": "The Fear Download Disc 1",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/the-fear-87275/1",
+      "note": ""
+    },
+    {
+      "label": "The Fear Download Disc 2",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/the-fear-87275/2",
+      "note": ""
+    },
+    {
+      "label": "The Fear Download Disc 3",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/the-fear-87275/3",
+      "note": ""
+    },
+    {
+      "label": "The Fear Download Disc 4",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/the-fear-87275/4",
+      "note": ""
+    }
+  ],
+  "shadow-hearts": [
+    {
+      "label": "Shadow Hearts Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/shadow-hearts-16366/7",
+      "note": ""
+    }
+  ],
+  "shadow-hearts-covenant": [
+    {
+      "label": "Shadow Hearts: Covenant Download Disc 1",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/shadow-hearts-covenant-15630/1",
+      "note": ""
+    },
+    {
+      "label": "Shadow Hearts: Covenant Download Disc 2",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/shadow-hearts-covenant-15630/2",
+      "note": ""
+    }
+  ],
+  "okage": [
+    {
+      "label": "Okage: Shadow King Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/okage-shadow-king-88689/1",
+      "note": ""
+    }
+  ],
+  "tsugunai": [
+    {
+      "label": "Tsugunai: Atonement Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/tsugunai-atonement-90137/1",
+      "note": ""
+    }
+  ],
+  "eternal-ring": [
+    {
+      "label": "Eternal Ring Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/eternal-ring-87178/3",
+      "note": ""
+    }
+  ],
+  "ribbit-king": [
+    {
+      "label": "Ribbit King Download",
+      "platform": "PS2",
+      "type": "download",
+      "url": "https://romsfun.com/download/ribbit-king-2-107420/3",
+      "note": ""
+    },
+    {
+      "label": "Ribbit King Download",
+      "platform": "GameCube",
+      "type": "download",
+      "url": "https://romsfun.com/download/ribbit-king-29249/2",
+      "note": ""
+    }
+  ],
+  "napple-tale-arsia-in-daydream": [
+    {
+      "label": "Napple Tale: Arsia in Daydream Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/napple-tale-arsia-in-daydream-78768/2",
+      "note": ""
+    }
+  ],
+  "l-o-l-lack-of-love": [
+    {
+      "label": "L.O.L.: Lack of Love Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/l-o-l-lack-of-love-78635/2",
+      "note": ""
+    }
+  ],
+  "segagaga": [
+    {
+      "label": "Segagaga Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/sggg-segagaga-79115/3",
+      "note": ""
+    }
+  ],
+  "record-of-lodoss-war": [
+    {
+      "label": "Record of Lodoss War Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/record-of-lodoss-war-79004/4",
+      "note": ""
+    }
+  ],
+  "sword-of-the-berserk-guts-rage": [
+    {
+      "label": "Sword of the Berserk: Guts’ Rage Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/sword-of-the-berserk-guts-rage-79271/2",
+      "note": ""
+    }
+  ],
+  "time-stalkers": [
+    {
+      "label": "Time Stalkers Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/time-stalkers-79308/2",
+      "note": ""
+    }
+  ],
+  "floigan-bros-episode-1": [
+    {
+      "label": "Floigan Bros. Episode 1 Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/floigan-bros-episode-1-78391/2",
+      "note": ""
+    }
+  ],
+  "toy-commander": [
+    {
+      "label": "Toy Commander Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/toy-commander-79334/2",
+      "note": ""
+    }
+  ],
+  "zombie-revenge": [
+    {
+      "label": "Zombie Revenge Download",
+      "platform": "Dreamcast",
+      "type": "download",
+      "url": "https://romsfun.com/download/zombie-revenge-79468/4",
+      "note": ""
+    }
+  ],
+  "lunacy": [
+    {
+      "label": "Lunacy Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/lunacy-43644/1",
+      "note": ""
+    },
+    {
+      "label": "Lunacy Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/lunacy-43644/2",
+      "note": ""
+    }
+  ],
+  "dark-savior": [
+    {
+      "label": "Dark Savior Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/dark-savior-43600/4",
+      "note": ""
+    }
+  ],
+  "burning-rangers": [
+    {
+      "label": "Burning Rangers Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/burning-rangers-43531/5",
+      "note": ""
+    }
+  ],
+  "wachenroder": [
+    {
+      "label": "Wachenröder Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/wachenroder-153619/1",
+      "note": ""
+    }
+  ],
+  "bulk-slash": [
+    {
+      "label": "Bulk Slash Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/bulk-slash-103038/3",
+      "note": ""
+    }
+  ],
+  "nanatsu-kaze-no-shima-monogatari": [
+    {
+      "label": "Nanatsu Kaze no Shima Monogatari Download Disc 1",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/nanatsu-kaze-no-shima-monogatari-103970/1",
+      "note": ""
+    },
+    {
+      "label": "Nanatsu Kaze no Shima Monogatari Download Disc 2",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/nanatsu-kaze-no-shima-monogatari-103970/2",
+      "note": ""
+    }
+  ],
+  "princess-crown": [
+    {
+      "label": "Princess Crown Download",
+      "platform": "Saturn",
+      "type": "download",
+      "url": "https://romsfun.com/download/princess-crown-2-104140/1",
+      "note": ""
+    },
+    {
+      "label": "Princess Crown Download",
+      "platform": "PSP",
+      "type": "download",
+      "url": "https://romsfun.com/download/princess-crown-15554/1",
+      "note": ""
+    }
+  ],
+  "akuji-the-heartless": [
+    {
+      "label": "Akuji the Heartless Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/akuji-the-heartless-28363/3",
+      "note": ""
+    }
+  ],
+  "vampire-hunter-d": [
+    {
+      "label": "Vampire Hunter D Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/vampire-hunter-d-23026/4",
+      "note": ""
+    }
+  ],
+  "o-d-t": [
+    {
+      "label": "O.D.T. Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/o-d-t-132660/9",
+      "note": ""
+    }
+  ],
+  "shadow-madness": [
+    {
+      "label": "Shadow Madness Download Disc 1",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/shadow-madness-26300/12",
+      "note": ""
+    },
+    {
+      "label": "Shadow Madness Download Disc 2",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/shadow-madness-26300/13",
+      "note": ""
+    }
+  ],
+  "kartia-the-word-of-fate": [
+    {
+      "label": "Kartia: The Word of Fate Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/kartia-the-word-of-fate-legend-of-kartia-28439/1",
+      "note": ""
+    }
+  ],
+  "azure-dreams": [
+    {
+      "label": "Azure Dreams Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/azure-dreams-2-26008/2",
+      "note": ""
+    }
+  ],
+  "threads-of-fate": [
+    {
+      "label": "Threads of Fate Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/threads-of-fate-22214/1",
+      "note": ""
+    }
+  ],
+  "jade-cocoon-story-of-the-tamamayu": [
+    {
+      "label": "Jade Cocoon: Story of the Tamamayu Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/jade-cocoon-story-of-the-tamamayu-23892/4",
+      "note": ""
+    }
+  ],
+  "alundra-2": [
+    {
+      "label": "Alundra 2 Download",
+      "platform": "PS1",
+      "type": "download",
+      "url": "https://romsfun.com/download/alundra-2-a-new-legend-begins-23022/2",
+      "note": ""
+    }
   ]
 };
 
@@ -1214,7 +2449,7 @@ window.DEEPSHELF_DOWNLOADS = {
       var u = new URL(String(value || '').trim());
       var raw = u.searchParams.get('e');
 
-      if (raw && /^\d{9,12}$/.test(raw)) {
+      if (raw && /^\d{9,13}$/.test(raw)) {
         var expiry = Number(raw);
         if (Number.isFinite(expiry)) {
           if (raw.length > 10) expiry = Math.floor(expiry / 1000);
